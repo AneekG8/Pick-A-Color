@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+    <title>Pick A Color!</title>
+  </head>
+  <body>
+    <section id="header" class="container-fluid px-0 bg-info pb-2">
+      <h1 class="display-2 text-center text-white">PICK A COLOR!</h1>
+      <hr class="w-75 mt-0">
+      <h2 class="display-5 text-center text-white"></h2>
+    </section>
+    <section id="navigator" class="container-fluid bg-white text-center px-0">
+      <button id="reset" class="btn btn-outline-primary mr-2 mr-sm-5">New Colors</button>
+      <span class="text-white">TRY AGAIN!</span>
+      <button id="easy" class="btn btn-success ml-2 mr-0 ml-sm-5">Easy</button>
+      <button id="hard" class="btn btn-outline-danger ml-1 ml-sm-2">Hard</button>
+    </section>
+    <section id="colors" class="text-center">
+      <div class="container-fluid w-xs-100 w-md-50 px-0 pt-4 pt-md-0">
+        <div class="row mx-0">
+          <div class="col-6 col-lg-4 my-2 mt-md-3 px-0">
+            <div class="mx-auto square"></div>
+          </div>
+          <div class="col-6 col-lg-4 my-2 mt-md-3 px-0">
+            <div class="mx-auto square"></div>
+          </div>
+          <div class="col-6 col-lg-4 my-2 mt-md-3 px-0">
+            <div class="mx-auto square"></div> 
+          </div>
+          <div class="col-6 col-lg-4 my-2 mt-md-3 px-0 d-none row2">
+            <div class="mx-auto square"></div>
+          </div>
+          <div class="col-6 col-lg-4 my-2 mt-md-3 px-0 d-none row2">
+            <div class="mx-auto square"></div>
+          </div>
+          <div class="col-6 col-lg-4 my-2 mt-md-3 px-0 d-none row2">
+            <div class="mx-auto square"></div>
+          </div>
+      </div>
+    </section>
+    <section id="instruction" class="text-center p-3">
+      <h1 class="display-4">INSTRUCTIONS!</h1>
+      <hr class="w-100">
+      <p>This is a simple guessing game where u have to guess the correct color corresponding to the given <strong>RGB</strong> value.</p>
+      <p>The game starts at <strong>EASY</strong> level containing only 3 cards whereas the <strong>HARD</strong> level contains 6 cards</p>
+      <p>Hope you enjoy the game!</p>
+      <button id="start" class="btn btn-info">Got It!</button>
+    </section>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https:/9/code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
